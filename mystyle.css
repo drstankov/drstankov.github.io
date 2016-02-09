@@ -16,3 +16,14 @@
     min-height: 100%;
     min-width: 100%;   
 }
+
+.blue-button {
+    width: auto;
+}
+
+.mainmenu {
+width:750px;
+margin:0 auto;
+list-style:none;
+   
+}
