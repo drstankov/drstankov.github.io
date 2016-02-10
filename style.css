@@ -9,25 +9,6 @@ Version: 1.0.1
 /*-----------------------------------------------------------------------------------*/
 /*	RESET
 /*-----------------------------------------------------------------------------------*/
-
-
-
-search-button {
-	
-	color:red;
-	
-}
-
-.alert,
-.alertmsg {
-    padding: 5px 10px 5px 10px;
-    margin-bottom: 20px;
-    display: inline-block;
-    border-radius: 4px;
-    border: 1px solid transparent;
-    
-}
-
 *,
 *:before,
 *:after {
@@ -246,8 +227,7 @@ iframe {
     border: none
 }
 .media-wrapper {
-    margin: 20px 0;
-	
+    margin: 20px 0
 }
 .black-wrapper {
     background: #303538;
