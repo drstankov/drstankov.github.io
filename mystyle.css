@@ -34,12 +34,53 @@ list-style:none;
 /*page titles*/
 .title-section { 
 color: #3f8dbf !important;
+font-size: 20px;
 }
 
 
 
-/*user's expericene text*/
+/*user's experience text*/
 .autor-text {
     color: skyblue !important;
 }
 
+/*user experience circles*/
+
+.circle {
+    color: #3f8dbf;
+    border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+
+.languages {
+    
+    font-size: 18px;
+    margin: 12px 0 0 0;
+    padding: 10px 10px 30px 10px;
+    display: inline-block;
+    font-weight: 700;
+    content: "|";
+    padding: 0 10px 0 5px;
+
+    
+}
+
+
+.main-title {
+    color: #515151;   
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 0px;
+}
+
+
+.top-image {
+    background: rgba(255,255,255,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
