@@ -38,7 +38,6 @@ font-size: 20px;
 }
 
 
-
 /*user's experience text*/
 .autor-text {
     color: skyblue !important;
@@ -53,9 +52,7 @@ font-size: 20px;
 	height: 200px;
 }
 
-
 .languages {
-    
     font-size: 18px;
     margin: 12px 0 0 0;
     padding: 10px 10px 30px 10px;
@@ -67,14 +64,13 @@ font-size: 20px;
     
 }
 
-
 .main-title {
-    color: #515151;   
+    color: #dddddd;   
     font-size: 26px;
     line-height: 38px;
     margin-bottom: 0px;
+    font-family: 'PT Mono', ;
 }
-
 
 .top-image {
     background: rgba(255,255,255,0.6);
@@ -83,4 +79,8 @@ font-size: 20px;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.small-icons {
+    color: #dddddd !important;
 }
