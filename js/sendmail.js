@@ -4,10 +4,14 @@
 var sendEmail = function (name,from,subject,message) {
  
     var mailApi = "http://mailer-drstankov.rhcloud.com/sendmail";   
- 
- 
-    var email = { "name": name, "from": from, "subject": subject, "message": message };
- 
+    var email = { 
+        "name": name,
+        "from": from,
+        "subject": subject, 
+        "message": message
+    };
+    
+    sendjson(mailApi,email);
 }
 
 // sendjson gi praka podatocite
@@ -30,6 +34,8 @@ var sendjson = function (url,data) {
 
 
 //da se brisat podatocite od formata
+
+//document --> html-dokumentot
 
 var clearform = function () {
 
