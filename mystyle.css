@@ -23,12 +23,10 @@
     color: #3f8dbf;
 }
 
-
 .mainmenu {
 width:750px;
 margin:0 auto;
-list-style:none;
-   
+list-style:none;   
 }
 
 /*page titles*/
@@ -37,14 +35,12 @@ color: #3f8dbf !important;
 font-size: 20px;
 }
 
-
 /*user's experience text*/
 .autor-text {
     color: skyblue !important;
 }
 
 /*user experience circles*/
-
 .circle {
     color: #3f8dbf;
     border-radius: 50%;
@@ -53,15 +49,13 @@ font-size: 20px;
 }
 
 .languages {
-    font-size: 18px;
+    font-size: 15px;
     margin: 12px 0 0 0;
     padding: 10px 10px 30px 10px;
     display: inline-block;
     font-weight: 700;
     content: "|";
-    padding: 0 10px 0 5px;
-
-    
+    padding: 0 10px 0 5px;    
 }
 
 .main-title {
@@ -85,14 +79,6 @@ font-size: 20px;
     color: #dddddd !important;
 }
 
-.languages {
-    font-size: 15px;
-    
-}
-
-.experience-panel {
-    
-    height: 335px;
-    
-    
+.experience-panel {   
+    height: 335px;   
 }
