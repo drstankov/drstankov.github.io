@@ -59,11 +59,13 @@ font-size: 20px;
 }
 
 .main-title {
-    color: #dddddd;   
-    font-size: 26px;
+    color: #E8E8E8;   
+    font-size: 23px;
     line-height: 38px;
     margin-bottom: 0px;
-    font-family: 'PT Mono', ;
+    font-family: 'Roboto Slab', serif ;
+    text-transform: none;
+    font-weight: 400;
 }
 
 .top-image {
