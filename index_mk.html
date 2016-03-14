@@ -88,7 +88,7 @@
                     <div class="dropdown-menu search-bar">
                         <form class="navbar-form navbar-left " role="search">
                             <div class="form-group ">
-                                <input type="text" class="form-control" placeholder="Пребарување">
+                                <input type="text" name="search-bar" class="form-control" placeholder="Пребарување">
                             </div>
                         </form>
                     </div>
@@ -446,15 +446,14 @@
 
                         
                         <form class="searchform" method="get">
-                            <input type="text" class="icon-search" id="s2" name="s" onfocus="this.value=''" onblur="this.value='пребарај'"  value="пребарај" />
-                            
+                            <input type="text" class="icon-search" id="s2" name="<search-field></search-field>" onfocus="this.value=''" onblur="this.value='пребарај'"  value="пребарај" />                           
                         </form>
+                        
                         <div class="search-button">
                             <br>
                             <input type="submit" value="Пребарај" name="Submit" class="btn btn-blue blue-button" />
-                            
-
                         </div>
+                        
                     </div>
                     <!-- /.widget -->
                     <div class="sidebox widget">
@@ -599,6 +598,7 @@
 <script src="style/js/jquery.slickforms.js"></script>
 <script src="style/js/scripts.js"></script>
 <script src="js/sendmail.js"></script>
+<script src="js/slidemenu.js"></script>
 </body>
 </html>
 
