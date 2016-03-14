@@ -1,6 +1,6 @@
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
-    }, 600);
+    }, 700);
     return false;
 });
