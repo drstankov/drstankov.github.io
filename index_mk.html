@@ -35,20 +35,7 @@
 </head>
 
 <body>
-
-    <!--main picture-->
-    <!--<div class="head-image option-3" style="background-image: url(style/images/art/ptbg11.jpg);">
-    <div class="overlay light">
-        <div class="container">
-            <h1 class="page-title"><strong> Д-р Борис Станков - специјалист по стоматолошка протетика </strong></h1>
-        </div>
-    </div>
-</div>-->
-
-
-
     <div class="yamm navbar">
-
         <div class="navbar-header" style="background-image: url(style/images/art/ptbg10.jpg);">
             <div class="container "> <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class="icon-menu-1"></i></a>
                 <a class="navbar-brand" href="index_mk.html"><h1 class="main-title"> Д-р Борис Станков - специјалист по стоматолошка протетика </h1> </a>
@@ -58,9 +45,6 @@
                 </ul>
             </div>
         </div>
-
-
-
 
         <!-- main menu -->
         <div class="collapse navbar-collapse">
@@ -82,11 +66,10 @@
                     <li> <a href="index_mk.html"> MK </a></li>
                     <li> <a href="index_en.html"> EN </a></li>
                     <li> <a href="index_al.html"> AL </a></li>
-
                 </ul>
                 <!--small icons-->
                 <ul class="social pull-right">
-                    <li><a href="https://www.facebook.com/drstankov/"><i class="icon-s-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/drstankov/" target="_blank"><i class="icon-s-facebook"></i></a></li>
                     <li class="button-group pull-right"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
                         <div class="dropdown-menu search-bar">
                             <form class="navbar-form navbar-left " role="search">
@@ -104,11 +87,7 @@
     <!--/.navbar -->
 
 
-
-
-
     <!--light wrapper - services -->
-
     <div name="uslugi" class="light-wrapper ">
         <div class="container inner" id="uslugi">
             <h3 class="section-title text-center bm20 title-section">Нашите услуги<span>We are here to serve you</span></h3>
@@ -117,7 +96,6 @@
                 porta.
             </p>
             <div class="divide30"></div>
-
 
             <!-- first row services-->
             <div class="row">
@@ -170,13 +148,10 @@
             </div>
         </div>
     </div>
-
     <!--end of light wrapper-->
 
 
-
     <!--dark wrapper-->
-
     <div class="dark-wrapper">
         <div class="container inner" id="zanas">
             <h3 class="section-title text-center title-section">За Нас <span>We are here to serve you</span></h3>
@@ -190,7 +165,6 @@
                             <p>Секој работен ден.
                                 <br> <strong> Прва смена: </strong> 07:00 - 14:00
                                 <br> <strong> Втора смена: </strong> 13:00 - 20:00 </p>
-
                         </div>
                         <!-- /.text -->
                     </div>
@@ -248,14 +222,10 @@
             <!-- /.services -->
         </div>
     </div>
-
     <!--end of black wrapper-->
 
 
-
-
     <!--experience-->
-
     <div id="third" class="parallax">
         <div class="container inner experience-panel" id="iskustvo">
             <div id="testimonials" class="tab-container">
@@ -288,9 +258,7 @@
     </div>
 
 
-
     <!--F A Q-->
-
     <div class="light-wrapper">
         <div class="container inner" id="faq">
             <div class="row classic-blog">
@@ -452,9 +420,6 @@
                     <!-- /.widget -->
                     <div class="sidebox widget">
                         <h3>Пребарување</h3>
-
-
-
                         <form class="searchform" method="get">
                             <input type="text" class="icon-search" id="s2" name="<search-field></search-field>" onfocus="this.value=''" onblur="this.value='пребарај'"
                             value="пребарај" />
@@ -464,7 +429,6 @@
                             <br>
                             <input type="submit" value="Пребарај" name="Submit" class="btn btn-blue blue-button" />
                         </div>
-
                     </div>
                     <!-- /.widget -->
                     <div class="sidebox widget">
@@ -474,32 +438,20 @@
                         <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue. Fusce mauris condimentum.</p>
                     </div>
                     <!-- /.widget -->
-
                     <!-- /.widget -->
-
                 </aside>
                 <!-- /.col-sm-4 .sidebar -->
             </div>
-
-
-
         </div>
-
     </div>
 
 
-
-
-
-
     <!--second dark wrapper-->
-
-
     <div class="dark-wrapper">
         <div class="container inner" id="kontakt">
             <div class="row">
                 <div class="col-sm-7">
-                    <h1 class="post-title"> Контактирајте не преку е-Пошта во секое време!</h1>
+                    <h1 class="post-title"> Контактирајте не преку е-MAIL во секое време!</h1>
                     <p>Maecenas vehicula condimentum consequat. Ut suscipit ipsum eget leotero convallis feugiat upsoyut fermentum
                         leo auctor consequat turpis aturo nisiper.</p>
                     <div class="divide20"></div>
@@ -533,22 +485,20 @@
                                         <!--Send Button-->
                                         <div class="col-sm-2">
                                             <li class="button-row">
-                                                <input type="submit" value="Испрати" name="Submit" class="btn btn-blue btn-submit bm0" onclick="submitEmailForm()" />
+                                                <input type="submit" id="sendbtn" value="Испрати" name="Submit" class="btn btn-blue btn-submit bm0" onclick="submitEmailForm()"
+                                                />
                                             </li>
                                         </div>
 
                                         <!--Alert MSG-->
                                         <div class="col-sm-10">
-                                            <div class="alert alert-info alert-msg">
+                                            <div class="alert alert-info alert-msg" id="infomsg">
                                                 <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                                <strong>Пораката е успешно пратена!</strong></div>
-
+                                                <strong>Пораката е успешно пратена!</strong>
+                                            </div>
                                         </div>
                                     </div>
                                 </ol>
-
-
-
                                 <input type="hidden" name="v_error" id="v-error" value="Required" />
                                 <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
                             </fieldset>
@@ -565,10 +515,10 @@
           <i class="icon-pin"></i><strong> Локација: </strong> Здравствен Дом Железничар, спрат 4, соба бр. 5<br>
           <i class="icon-mail contact"></i><strong>еПошта: </strong> <a href="mailto:stankovboris@yahoo.com">stankovboris@yahoo.com</a> <br>    
           <i class="icon-phone-1"></i><strong> Телефон:</strong> +389 70 234-445 <br>
-          <i class="icon-facebook"></i>     <strong> Facebook: </strong> <a href="https://www.facebook.com/drstankov/"> drStankov </a> <br> 
+          <i class="icon-facebook"></i>     <strong> Facebook: </strong> <a href="https://www.facebook.com/drstankov/" target="_blank"> drStankov </a> <br> 
           </address>
-                        <div class="map map-style" >
-                            <iframe width="100%" height="270" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2965.3129916937637!2d21.4272001!3d41.9935579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354144ab3ff6e99%3A0xc6404a07f8fe56e6!2sHospital+Zheleznichar!5e0!3m2!1sen!2smk!4v1454443к416">
+                        <div class="map map-style">
+                            <iframe width="100%" height="270" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2965.3129916937637!2d21.4272001!3d41.9935579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354144ab3ff6e99%3A0xc6404a07f8fe56e6!2sHospital+Zheleznichar!5e0!3m2!1sen!2smk!4v1454443к416">
                             </iframe>
                         </div>
                     </div>
@@ -577,19 +527,11 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
     <!-- footer -->
     <footer class="black-wrapper">
         <div class="sub-footer">
             <div class="container">
                 <p class="pull-left">Copyright © 2016 Д-р Станков - Сите права се задржани. </p>
-
                 <ul class="footer-menu pull-right">
                     <li><a href="#uslugi">Услуги</a></li>
                     <li><a href="#zanas">За Нас</a></li>
@@ -599,7 +541,7 @@
                 </ul>
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-4">
-                        <p style="text-align: center"> Изработено од: <a href="https://linkedin.com/in/enastankova"><span style="color: #3f8dbf">E. Stankova</span></a></p>
+                        <p style="text-align: center"> Изработено од: <a href="https://linkedin.com/in/enastankova" target="_blank"><span style="color: #3f8dbf">E. Stankova</span></a></p>
                     </div>
                 </div>
             </div>
@@ -607,8 +549,7 @@
     </footer>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+    <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="style/js/jquery.min.js"></script>
     <script src="style/js/bootstrap.min.js"></script>
@@ -628,6 +569,6 @@
     <script src="style/js/scripts.js"></script>
     <script src="js/sendmail.js"></script>
     <script src="js/slidemenu.js"></script>
+    <script src="js/fadeoutmsg.js"></script>
 </body>
-
 </html>

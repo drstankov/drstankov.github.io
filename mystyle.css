@@ -108,6 +108,8 @@ font-size: 20px;
 
 .alert-msg {  
     padding: 9px !important;
+    display: none;
+    
 }
 
 .map-style {   
