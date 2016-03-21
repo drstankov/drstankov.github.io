@@ -99,11 +99,7 @@ font-size: 20px;
 }
 
 
-.mainbar-collapse {
-    
-    background: 
-    
-}
+
 
 
 .alert-msg {  
@@ -114,4 +110,21 @@ font-size: 20px;
 
 .map-style {   
         margin-bottom: 5px;
+}
+
+
+input::-webkit-input-placeholder {
+color: #8c8c8c !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #8c8c8c !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #8c8c8c !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #8c8c8c !important;  
 }
