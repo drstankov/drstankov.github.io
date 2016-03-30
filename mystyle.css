@@ -100,8 +100,6 @@ font-size: 20px;
 
 
 
-
-
 .alert-msg {  
     padding: 9px !important;
     display: none;
@@ -129,4 +127,22 @@ input:-ms-input-placeholder {
 color: #8c8c8c !important;  
 }
 
-.slidelink {}
+.subtitle {
+    font-family: 'Alegreya Sans', sans-serif !important;
+    
+}
+
+.picsize {
+    width: 350px !important;
+    height: 255px !important;
+}
+
+.sizepic{
+    height: 200px !important;    
+    width: 300px !important;
+}
+
+.imgsize {
+    height: 300px !important;    
+    width: 430px !important;
+}
