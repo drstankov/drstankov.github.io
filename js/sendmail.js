@@ -21,9 +21,7 @@ var submitEmailForm = function(e) {
         return;
      }
      
-     function resetform() {
-        document.getElementById("emailForm").reset();
-    }  
+      
     
     var formDataJson = JSON.stringify(formData);
     
@@ -42,6 +40,10 @@ var submitEmailForm = function(e) {
           
 }
 
+//clear form
+$(".reset").click(function() {
+    $(this).closest('form').find("input[type=text], textarea").val("");
+});
 
 // msg when the mail is send
 var emailSent = function(data, status, request) {    
