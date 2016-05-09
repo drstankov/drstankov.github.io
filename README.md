@@ -1,2 +1,2 @@
 # drstankov.github.io
-lalalala
+Web site for a dentist office.
